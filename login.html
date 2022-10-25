@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    
+</head>
+<body background="images/signUp.jpg" >
+    <div class="head">
+        <img src="images/logo.jpg" alt="logo" height="100px" width="100px">
+        
+        <h1>TAXI SERVICE</h1>
+        <table class="tab1">
+            <tr >
+                <th> <a href ="index.html">Home</a></th>
+                <th> <a href ="">Contact Us</a></th>
+                <th> <a href ="signUp.html">Sign Up</a></th>
+                <th> <a href ="login.html">Login</a></th>
+             </tr>
+       </table>
+    </div>
+
+
+     <form action="booking.html" method="POST">
+        <center>
+        <table class ="logtab"cellspacing="6" cellpadding="2">
+            <tr>
+                <td>
+                    <label for="userName">Username:</label>
+                </td>
+                <td>
+                    <input  type="text" id="userName" name="userName"  placeholder="Your Username"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input  type="password" id="password" name="password"  placeholder="Your password."/>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input  type="checkbox" id="agree" name="agree"   value="1"/>Forgot Password.
+            </tr>
+        </table>
+
+        <button class="subbtn">Submit</button>
+        <!--<button style="background-color:blue; color:white;">Reset</button> -->
+    </center>
+    </form>
+    
+
+    
+</body>
+</html>
