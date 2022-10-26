@@ -1,11 +1,11 @@
-.headr{
+/* .headr{
             background-color: rgb(234, 234, 21);
             height: 3cm;
             color: black;
             font-size: 20pt;
             display: flex;
             align-items: center;
-        }
+        } */
 
 .bod{
             font-style: italic;
@@ -13,9 +13,9 @@
             color: white;
         }
 
-.btn{
+/* .btn{
             
-        }
+        } */
 
 .tab1{
             color:black;
@@ -25,3 +25,10 @@
             border-spacing: 2em;
         }
     
+
+/* .container-fluid{
+        background-color: rgb(234, 234, 21);
+        height: 3cm;
+        color: black;
+        font-size: 20pt;
+}         */
